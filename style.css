@@ -1,0 +1,53 @@
+.attribution {
+     font-size: 11px; text-align: center;
+ }
+body a {
+     color: hsl(228, 45%, 44%); 
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: hsl(212, 45%, 89%);
+}
+.attribution{
+    width: 200px;
+    height: 310px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.027);
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+#qr-code{
+    width: 200px;
+    padding: 10px;
+    padding-bottom: 0;
+    border-radius: 18px;
+    border-radius: inherit;
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.qr-section{
+     overflow: hidden;
+     border-radius: 15px;
+}
+h4{
+    margin-top: 10px;
+    color: hsl(218, 44%, 22%);
+    font-family: Outfit;
+    font-size: 1.28em;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 0;
+}
+#paragraph{
+    color: hsl(216, 15%, 48%);
+    font-family: Outfit;
+    font-size: 0.9em;
+    margin-left: 20px;
+    margin-right: 20px;
+}
